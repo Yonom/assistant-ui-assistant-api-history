@@ -1,10 +1,8 @@
 "use client";
 
 import { useAssistant } from "@ai-sdk/react";
-import {
-	AssistantRuntimeProvider,
-	useVercelUseAssistantRuntime,
-} from "@assistant-ui/react";
+import { AssistantRuntimeProvider } from "@assistant-ui/react";
+import { useVercelUseAssistantRuntime } from "@assistant-ui/react-ai-sdk";
 import { useSearchParams } from "next/navigation";
 import { useEffect } from "react";
 
